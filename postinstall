@@ -1,0 +1,44 @@
+#!/bin/bash
+INODE_CFG="/etc/iNode/inodesys.conf"
+[ -r "$INODE_CFG" ] && . "${INODE_CFG}"
+if [ -z "$INSTALL_DIR" ]; then
+    echo INSTALL_DIR=/Applications/iNodeClient >> /etc/iNode/inodesys.conf
+fi
+echo "开始授权"
+sudo chown -R root:admin /Applications/iNodeClient
+sudo chown -R root:wheel /etc/iNode
+sudo chown -R root:wheel /Library/StartupItems/iNodeAuthService
+sudo chown -R root:wheel /usr/local/lib
+sudo chown root:wheel /Library/LaunchDaemons/com.apple.iNodeClient.plist
+sudo chmod -R 755 /Applications/iNodeClient
+sudo chmod 775 /Applications/iNodeClient
+sudo chmod 644 /Library/StartupItems/iNodeAuthService/StartupParameters.plist
+sudo chmod 755 /Library/StartupItems/iNodeAuthService/iNodeAuthService
+sudo chmod -R 777 /Applications/iNodeClient/log
+sudo chmod -R 777 /Applications/iNodeClient/conf
+sudo chmod -R 777 /Applications/iNodeClient/clientfiles
+sudo chmod -R 777 /Applications/iNodeClient/clientfiles/8021
+sudo chmod -R 777 /Applications/iNodeClient/clientfiles/5020
+sudo chmod -R 777 /Applications/iNodeClient/clientfiles/7000
+sudo chmod -R 777 /Applications/iNodeClient/custom/
+sudo mv -f /Applications/iNodeClient/clientfiles/*.icnf /Applications/iNodeClient/clientfiles/8021/
+CUSDIR=$(dirname "$0")
+echo "当前的位置${CUSDIR}"
+echo "当前的目录所有文件"
+ls $CUSDIR
+echo "复制依赖文件"
+sudo cp -rf "${CUSDIR}"/custom/iNodeCustom.xml /Applications/iNodeClient/custom/
+sudo cp -rf "${CUSDIR}"/custom/iNodeCustomXml.vrf /Applications/iNodeClient/custom/
+sudo cp -rf "${CUSDIR}"/custom/DeskIconMacOS.icns /Applications/iNodeClient/iNodeClient.app/Contents/Resources/wxmac.icns
+sudo cp -rf "${CUSDIR}"/custom/DeskIconMacOS.icns /Applications/iNodeClient/custom/
+sudo chmod -R 777 /Applications/iNodeClient/custom/
+echo "启动项文件检查"
+FILE="/Library/LaunchDaemons/com.apple.iNodeClient.plist"
+if [ -f "$FILE" ]; then
+    echo "com.apple.iNodeClient.plist文件存在."
+else
+    echo "com.apple.iNodeClient.plist文件不存在,复制后添加启动项"
+    cp "${CUSDIR}"/Library/LaunchDaemons/com.apple.iNodeClient.plist /Library/LaunchDaemons/com.apple.iNodeClient.plist
+fi
+sudo launchctl load /Library/LaunchDaemons/com.apple.iNodeClient.plist
+exit 0
