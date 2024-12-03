@@ -1,7 +1,7 @@
 #!/bin/bash
 IfExistAuth=`ps -Ac -o command|grep -x AuthenMngService`
 IfExistMon=`ps -Ac -o command|grep -x iNodeMon`
-
+LIB_TARGET_DIR="/usr/local/lib"
 if [ "$IfExistAuth" != "" -o "$IfExistMon" != "" ]
 then
     sudo launchctl unload /Library/LaunchDaemons/com.apple.iNodeClient.plist
@@ -61,6 +61,17 @@ echo "移动inodesys.conf"
 sudo cp ./inodesys.conf /etc/iNode/inodesys.conf
 echo "移动inodesys.conf完成✅"
 # 2. 移动依赖文件
+echo "检查依赖库目录"
+# 检查目录是否存在
+if [ -d "$LIB_TARGET_DIR" ]; then
+  echo "Directory $LIB_TARGET_DIR already exists."
+else
+  echo "Directory $LIB_TARGET_DIR does not exist. Creating it..."
+  # 创建目录并设置权限
+  sudo mkdir -p "$LIB_TARGET_DIR"
+  sudo chmod 755 "$LIB_TARGET_DIR"
+  echo "Directory $LIB_TARGET_DIR created and permissions set to 755."
+fi
 echo "移动依赖文件"
 sudo cp -r ./lib/* /usr/local/lib/
 echo "移动依赖文件完成✅"
