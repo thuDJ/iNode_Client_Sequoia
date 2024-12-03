@@ -628,9 +628,9 @@
 									<key>GID</key>
 									<integer>80</integer>
 									<key>PATH</key>
-									<string>/Users/lin/fknode/iNodeClient</string>
+									<string>iNodeClient</string>
 									<key>PATH_TYPE</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>PERMISSIONS</key>
 									<integer>493</integer>
 									<key>TYPE</key>
@@ -824,9 +824,9 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/Library/LaunchDaemons/com.apple.iNodeClient.plist</string>
+											<string>Library/LaunchDaemons/com.apple.iNodeClient.plist</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>420</integer>
 											<key>TYPE</key>
@@ -1004,9 +1004,9 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>/Users/lin/fknode/Library/StartupItems/iNodeAuthService/iNodeAuthService</string>
+													<string>Library/StartupItems/iNodeAuthService/iNodeAuthService</string>
 													<key>PATH_TYPE</key>
-													<integer>0</integer>
+													<integer>1</integer>
 													<key>PERMISSIONS</key>
 													<integer>493</integer>
 													<key>TYPE</key>
@@ -1020,9 +1020,9 @@
 													<key>GID</key>
 													<integer>0</integer>
 													<key>PATH</key>
-													<string>/Users/lin/fknode/Library/StartupItems/iNodeAuthService/StartupParameters.plist</string>
+													<string>Library/StartupItems/iNodeAuthService/StartupParameters.plist</string>
 													<key>PATH_TYPE</key>
-													<integer>0</integer>
+													<integer>1</integer>
 													<key>PERMISSIONS</key>
 													<integer>420</integer>
 													<key>TYPE</key>
@@ -1036,9 +1036,9 @@
 											<key>GID</key>
 											<integer>0</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/Library/StartupItems/iNodeAuthService</string>
+											<string>Library/StartupItems/iNodeAuthService</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -1052,9 +1052,9 @@
 									<key>GID</key>
 									<integer>0</integer>
 									<key>PATH</key>
-									<string>/Users/lin/fknode/Library/StartupItems</string>
+									<string>Library/StartupItems</string>
 									<key>PATH_TYPE</key>
-									<integer>0</integer>
+									<integer>1</integer>
 									<key>PERMISSIONS</key>
 									<integer>493</integer>
 									<key>TYPE</key>
@@ -1261,7 +1261,7 @@
 				<key>USE_HFS+_COMPRESSION</key>
 				<false/>
 				<key>VERSION</key>
-				<string>1.0.1</string>
+				<string>1.0.2</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>

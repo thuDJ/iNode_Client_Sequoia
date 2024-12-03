@@ -60,6 +60,8 @@ mkdir /etc/iNode
 echo "移动inodesys.conf"
 sudo cp ./inodesys.conf /etc/iNode/inodesys.conf
 echo "移动inodesys.conf完成✅"
+echo "/usr/local/lib目录检查"
+sudo mkdir -p /usr/local/lib
 # 2. 移动依赖文件
 echo "移动依赖文件"
 sudo cp -r ./lib/* /usr/local/lib/
