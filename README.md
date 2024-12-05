@@ -1,9 +1,9 @@
 # FkInode
 
-<p style="display:flex;flex-direction:column;justify-content: center;align-items: center;" align="center">
+<p align="center">
 <img style="width: 100px;" src="./imgs/icon.png"/>
-<span><b>inodeClinet Support Macos 15(基于 E0585)</b></span>
 </p>
+<p align="center"><span><b>inodeClinet Support Macos 15(基于 E0585)</b></span></p>
 
 本项目为教程：二次封装 inodeClinet 支持Macos15.
 
