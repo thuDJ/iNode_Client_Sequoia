@@ -29,202 +29,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/.DS_Store</string>
+											<string>iNodeClient/AuthenMngService</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
-											<key>PERMISSIONS</key>
-											<integer>420</integer>
-											<key>TYPE</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>CHILDREN</key>
-											<array/>
-											<key>GID</key>
-											<integer>80</integer>
-											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/AuthenMngService</string>
-											<key>PATH_TYPE</key>
-											<integer>0</integer>
-											<key>PERMISSIONS</key>
-											<integer>493</integer>
-											<key>TYPE</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>EXPANDED</key>
-													<true/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/clientfiles/1100</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>EXPANDED</key>
-													<true/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/clientfiles/5020</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>EXPANDED</key>
-													<true/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/clientfiles/7000</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>EXPANDED</key>
-													<true/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/clientfiles/8021</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-											</array>
-											<key>EXPANDED</key>
-											<true/>
-											<key>GID</key>
-											<integer>80</integer>
-											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/clientfiles</string>
-											<key>PATH_TYPE</key>
-											<integer>0</integer>
-											<key>PERMISSIONS</key>
-											<integer>493</integer>
-											<key>TYPE</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/conf/iNode.conf</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-											</array>
-											<key>EXPANDED</key>
-											<true/>
-											<key>GID</key>
-											<integer>80</integer>
-											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/conf</string>
-											<key>PATH_TYPE</key>
-											<integer>0</integer>
-											<key>PERMISSIONS</key>
-											<integer>493</integer>
-											<key>TYPE</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/custom/iNodeCustom.xml</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/custom/iNodeCustomXml.vrf</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-											</array>
-											<key>EXPANDED</key>
-											<true/>
-											<key>GID</key>
-											<integer>80</integer>
-											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/custom</string>
-											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -238,9 +45,41 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/iNodeAuthService.sh</string>
+											<string>iNodeClient/conf</string>
 											<key>PATH_TYPE</key>
+											<integer>1</integer>
+											<key>PERMISSIONS</key>
+											<integer>493</integer>
+											<key>TYPE</key>
+											<integer>3</integer>
+											<key>UID</key>
 											<integer>0</integer>
+										</dict>
+										<dict>
+											<key>CHILDREN</key>
+											<array/>
+											<key>GID</key>
+											<integer>80</integer>
+											<key>PATH</key>
+											<string>iNodeClient/custom</string>
+											<key>PATH_TYPE</key>
+											<integer>1</integer>
+											<key>PERMISSIONS</key>
+											<integer>493</integer>
+											<key>TYPE</key>
+											<integer>3</integer>
+											<key>UID</key>
+											<integer>0</integer>
+										</dict>
+										<dict>
+											<key>CHILDREN</key>
+											<array/>
+											<key>GID</key>
+											<integer>80</integer>
+											<key>PATH</key>
+											<string>iNodeClient/iNodeAuthService.sh</string>
+											<key>PATH_TYPE</key>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -251,189 +90,24 @@
 										<dict>
 											<key>BUNDLE_CAN_DOWNGRADE</key>
 											<false/>
+											<key>BUNDLE_POSTINSTALL_PATH</key>
+											<dict>
+												<key>PATH_TYPE</key>
+												<integer>0</integer>
+											</dict>
+											<key>BUNDLE_PREINSTALL_PATH</key>
+											<dict>
+												<key>PATH_TYPE</key>
+												<integer>0</integer>
+											</dict>
 											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array>
-														<dict>
-															<key>CHILDREN</key>
-															<array>
-																<dict>
-																	<key>CHILDREN</key>
-																	<array/>
-																	<key>GID</key>
-																	<integer>80</integer>
-																	<key>PATH</key>
-																	<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/_CodeSignature/CodeResources</string>
-																	<key>PATH_TYPE</key>
-																	<integer>0</integer>
-																	<key>PERMISSIONS</key>
-																	<integer>420</integer>
-																	<key>TYPE</key>
-																	<integer>3</integer>
-																	<key>UID</key>
-																	<integer>0</integer>
-																</dict>
-															</array>
-															<key>EXPANDED</key>
-															<true/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/_CodeSignature</string>
-															<key>PATH_TYPE</key>
-															<integer>0</integer>
-															<key>PERMISSIONS</key>
-															<integer>493</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-														<dict>
-															<key>CHILDREN</key>
-															<array/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/Info.plist</string>
-															<key>PATH_TYPE</key>
-															<integer>0</integer>
-															<key>PERMISSIONS</key>
-															<integer>420</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-														<dict>
-															<key>CHILDREN</key>
-															<array>
-																<dict>
-																	<key>CHILDREN</key>
-																	<array/>
-																	<key>GID</key>
-																	<integer>80</integer>
-																	<key>PATH</key>
-																	<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/MacOS/iNodeClient</string>
-																	<key>PATH_TYPE</key>
-																	<integer>0</integer>
-																	<key>PERMISSIONS</key>
-																	<integer>493</integer>
-																	<key>TYPE</key>
-																	<integer>3</integer>
-																	<key>UID</key>
-																	<integer>0</integer>
-																</dict>
-															</array>
-															<key>EXPANDED</key>
-															<true/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/MacOS</string>
-															<key>PATH_TYPE</key>
-															<integer>0</integer>
-															<key>PERMISSIONS</key>
-															<integer>493</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-														<dict>
-															<key>CHILDREN</key>
-															<array/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/PkgInfo</string>
-															<key>PATH_TYPE</key>
-															<integer>0</integer>
-															<key>PERMISSIONS</key>
-															<integer>420</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-														<dict>
-															<key>CHILDREN</key>
-															<array>
-																<dict>
-																	<key>CHILDREN</key>
-																	<array/>
-																	<key>GID</key>
-																	<integer>80</integer>
-																	<key>PATH</key>
-																	<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/Resources/wxmac.icns</string>
-																	<key>PATH_TYPE</key>
-																	<integer>0</integer>
-																	<key>PERMISSIONS</key>
-																	<integer>420</integer>
-																	<key>TYPE</key>
-																	<integer>3</integer>
-																	<key>UID</key>
-																	<integer>0</integer>
-																</dict>
-															</array>
-															<key>EXPANDED</key>
-															<true/>
-															<key>GID</key>
-															<integer>80</integer>
-															<key>PATH</key>
-															<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents/Resources</string>
-															<key>PATH_TYPE</key>
-															<integer>0</integer>
-															<key>PERMISSIONS</key>
-															<integer>493</integer>
-															<key>TYPE</key>
-															<integer>3</integer>
-															<key>UID</key>
-															<integer>0</integer>
-														</dict>
-													</array>
-													<key>EXPANDED</key>
-													<true/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Contents</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>493</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/iNodeClient.app/Icon</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-											</array>
-											<key>EXPANDED</key>
-											<true/>
+											<array/>
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/iNodeClient.app</string>
+											<string>iNodeClient/iNodeClient.app</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -447,27 +121,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/iNodeMon</string>
+											<string>iNodeClient/iNodeMon</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
-											<key>PERMISSIONS</key>
-											<integer>493</integer>
-											<key>TYPE</key>
-											<integer>3</integer>
-											<key>UID</key>
-											<integer>0</integer>
-										</dict>
-										<dict>
-											<key>CHILDREN</key>
-											<array/>
-											<key>EXPANDED</key>
-											<true/>
-											<key>GID</key>
-											<integer>80</integer>
-											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/log</string>
-											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -481,9 +137,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/openssl</string>
+											<string>iNodeClient/openssl</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -497,9 +153,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/renew.ps</string>
+											<string>iNodeClient/renew.ps</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>420</integer>
 											<key>TYPE</key>
@@ -509,48 +165,13 @@
 										</dict>
 										<dict>
 											<key>CHILDREN</key>
-											<array>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/resource/inode_en.txt</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-												<dict>
-													<key>CHILDREN</key>
-													<array/>
-													<key>GID</key>
-													<integer>80</integer>
-													<key>PATH</key>
-													<string>/Users/lin/fknode/iNodeClient/resource/inode_zh.txt</string>
-													<key>PATH_TYPE</key>
-													<integer>0</integer>
-													<key>PERMISSIONS</key>
-													<integer>420</integer>
-													<key>TYPE</key>
-													<integer>3</integer>
-													<key>UID</key>
-													<integer>0</integer>
-												</dict>
-											</array>
-											<key>EXPANDED</key>
-											<true/>
+											<array/>
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/resource</string>
+											<string>iNodeClient/resource</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -564,9 +185,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/setdns.sh</string>
+											<string>iNodeClient/setdns.sh</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -580,9 +201,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/StopService.sh</string>
+											<string>iNodeClient/StopService.sh</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -596,9 +217,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/uninstall.sh</string>
+											<string>iNodeClient/uninstall.sh</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -612,9 +233,9 @@
 											<key>GID</key>
 											<integer>80</integer>
 											<key>PATH</key>
-											<string>/Users/lin/fknode/iNodeClient/unsetdns.sh</string>
+											<string>iNodeClient/unsetdns.sh</string>
 											<key>PATH_TYPE</key>
-											<integer>0</integer>
+											<integer>1</integer>
 											<key>PERMISSIONS</key>
 											<integer>493</integer>
 											<key>TYPE</key>
@@ -1261,7 +882,7 @@
 				<key>USE_HFS+_COMPRESSION</key>
 				<false/>
 				<key>VERSION</key>
-				<string>1.0.2</string>
+				<string>1.0.0</string>
 			</dict>
 			<key>TYPE</key>
 			<integer>0</integer>
